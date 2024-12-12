@@ -49,8 +49,8 @@ async def help_handler(client: Bot, message: Message | CallbackQuery):
     )
 
     buttons = [[
-        InlineKeyboardButton('Home 🏕', callback_data='home'),
-        InlineKeyboardButton('Close ❌', callback_data='close')
+        InlineKeyboardButton('˹ ʜᴏᴍᴇ ˼ ', callback_data='home'),
+        InlineKeyboardButton('˹ ᴄʟᴏsᴇ ˼', callback_data='close')
     ]]
 
     if isinstance(message, Message):
@@ -74,8 +74,8 @@ async def about(client: Bot, message: Message|CallbackQuery):
 
     buttons = [[
         
-        InlineKeyboardButton('Home 🏕', callback_data='home'),
-        InlineKeyboardButton('Close ❌', callback_data='close')
+        InlineKeyboardButton('˹ ʜᴏᴍᴇ ˼', callback_data='home'),
+        InlineKeyboardButton('˹ ᴄʟᴏsᴇ ˼', callback_data='close')
     ]]
     if isinstance(message, Message):
         await message.reply_text(text, reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True, quote=True)
