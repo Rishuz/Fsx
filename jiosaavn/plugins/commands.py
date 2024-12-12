@@ -20,7 +20,7 @@ async def start_handler(client: Bot, message: Message | CallbackQuery):
         "__- Search for songs, albums, playlists, and artists__\n"
         "__- Download your favorite tracks directly to Telegram__\n"
         "__- Explore various features tailored to enhance your music experience__\n\n"
-        "**Maintained By:** [techscoder](https://t.me/techscoder)"
+        "**Maintained By:** [ ꯭꯭↬꯭ᬃ꯭ ⃪꯭ ꯭⁢⁣⁤⁣⁣⁢⁣⁤⁢⁤⁣⁢⁤⁣⁤᪳᪳🇷꯭𝚰𝛅꯭꯭ʜ꯭֟፝፝֟ᴜ ꯭꯭༗꯭»꯭݅݅݅݅𓆪 ](https://t.me/ur_rishu_143)"
     )
 
     buttons = [[
