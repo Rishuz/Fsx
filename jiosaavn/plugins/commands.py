@@ -14,7 +14,7 @@ async def start_handler(client: Bot, message: Message | CallbackQuery):
     last_name = f' {message.from_user.last_name}' if message.from_user.last_name else ''
     mention = f"[{message.from_user.first_name}{last_name}](tg://user?id={message.from_user.id})"
     text = (
-        f"**Hello {mention},**\n\n"
+        f"**⛩️ Hello {mention},**\n\n"
         "<blockquote>ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ᴛʜᴇ ᴊɪᴏsᴀᴀᴠɴ ᴛᴇʟᴇɢʀᴀᴍ ʙᴏᴛ! ᴛʜɪs ᴘᴏᴡᴇʀғᴜʟ ʙᴏᴛ ᴀʟʟᴏᴡs ʏᴏᴜ ᴛᴏ sᴇᴀʀᴄʜ ᴀɴᴅ ᴅᴏᴡɴʟᴏᴀᴅ sᴏɴɢs, ᴘʟᴀʏʟɪsᴛs, ᴀʟʙᴜᴍs, ᴀɴᴅ ᴀʀᴛɪsᴛs ᴅɪʀᴇᴄᴛʟʏ ғʀᴏᴍ ᴊɪᴏsᴀᴀᴠɴ.</blockquote>\n\n"
         "**With this Bot, you can:**\n\n"
         "__- Search for songs, albums, playlists, and artists__\n"
@@ -24,14 +24,13 @@ async def start_handler(client: Bot, message: Message | CallbackQuery):
     )
 
     buttons = [[
-        InlineKeyboardButton('Owner 🧑', url='https://t.me/techscoder'),
-        InlineKeyboardButton('About 📕', callback_data='about')
+        InlineKeyboardButton('˹ ❍ᴡɴᴇꝛ ˼', url='https://t.me/Rishu1286'),
+        InlineKeyboardButton('˹ ᴧʙᴏᴜᴛ ˼', callback_data='about')
     ], [
-        InlineKeyboardButton('Help 💡', callback_data='help'),
-        InlineKeyboardButton('Settings ⚙', callback_data='settings')
-        ],[
-        InlineKeyboardButton('Open Source Repository 🌐', url='https://github.com/teleservices-api/jiosaavn')
-    ]]
+        InlineKeyboardButton('˹ ʜᴇʟᴘ ˼', callback_data='help'),
+        InlineKeyboardButton('˹ ᴍᴏᴅᴇ ˼ ', callback_data='settings')
+        ]
+]
     
     if isinstance(message, Message):
         await message.reply_text(text, reply_markup=InlineKeyboardMarkup(buttons), quote=True, disable_web_page_preview=True)
@@ -50,9 +49,6 @@ async def help_handler(client: Bot, message: Message | CallbackQuery):
     )
 
     buttons = [[
-        InlineKeyboardButton('About 📕', callback_data='about'),
-        InlineKeyboardButton('Settings ⚙', callback_data='settings')
-        ],[
         InlineKeyboardButton('Home 🏕', callback_data='home'),
         InlineKeyboardButton('Close ❌', callback_data='close')
     ]]
@@ -71,15 +67,13 @@ async def about(client: Bot, message: Message|CallbackQuery):
         f"**🤖 Bot Name:** {me.mention()}\n\n"
         "**📝 Language:** [Python 3](https://www.python.org/)\n\n"
         "**🧰 Framework:** [Pyrogram](https://github.com/pyrogram/pyrogram)\n\n"
-        "**👨‍💻 Developer:** [techscoder](https://t.me/techscoder)\n\n"
-        "**📢 Updates Channel:** [Teleservice Api](https://t.me/Teleservices_Api)\n\n"
-        "**🔗 Source Code:** [GitHub Repository](https://github.com/teleservices-api/jiosaavn)\n\n"
+        "**👨‍💻 Developer:** [Rishu](https://t.me/rishu1286)\n\n"
+        "**📢 Updates Channel:** [Rishu bots ](https://t.me/ur_rishu_143)\n\n"
+        
     )
 
     buttons = [[
-        InlineKeyboardButton('Help 💡', callback_data='help'),
-        InlineKeyboardButton('Settings ⚙', callback_data='settings')
-        ],[
+        
         InlineKeyboardButton('Home 🏕', callback_data='home'),
         InlineKeyboardButton('Close ❌', callback_data='close')
     ]]
