@@ -41,11 +41,11 @@ async def start_handler(client: Bot, message: Message | CallbackQuery):
 @Bot.on_message(filters.command('help') & filters.private & filters.incoming)
 async def help_handler(client: Bot, message: Message | CallbackQuery):
     text = (
-        "<blockquote>⌬ IT'Տ ᐯᗴᖇY ՏIᗰᑭᒪᗴ TO ᑌՏᗴ ᗰᗴ! 😉</blockquote>\n\n"
+        "<blockquote>**⌬ IT'Տ ᐯᗴᖇY ՏIᗰᑭᒪᗴ TO ᑌՏᗴ ᗰᗴ!** 😉</blockquote>\n\n"
         "**⌬ sᴛᴀʀᴛ ʙʏ ᴄᴏɴғɪɢᴜʀɪɴɢ ʏᴏᴜʀ ᴘʀᴇғᴇʀᴇɴᴄᴇs ᴜsɪɴɢ ᴛʜᴇ ᴄᴏᴍᴍᴀɴᴅ. **\n"
         "**⌬ sᴇɴᴅ ᴍᴇ ᴛʜᴇ ɴᴀᴍᴇ ᴏғ ᴀ sᴏɴɢ, ᴘʟᴀʏʟɪsᴛ, ᴀʟʙᴜᴍ, ᴏʀ ᴀʀᴛɪsᴛ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ sᴇᴀʀᴄʜ .**\n"
         "**⌬ ɪ'ʟʟ ʜᴀɴᴅʟᴇ ᴛʜᴇ ʀᴇsᴛ ᴀɴᴅ ᴘʀᴏᴠɪᴅᴇ ʏᴏᴜ ᴡɪᴛʜ ᴛʜᴇ ʀᴇsᴜʟᴛs!**\n\n"
-        "<blockquote>⌬ ғᴇᴇʟ ғʀᴇᴇ ᴛᴏ ᴇxᴘʟᴏʀᴇ ᴀɴᴅ ᴇɴɪᴏʏ ᴛʜᴇ ᴍᴜsɪᴄ !</blockquote>"
+        "<blockquote>**⌬ ғᴇᴇʟ ғʀᴇᴇ ᴛᴏ ᴇxᴘʟᴏʀᴇ ᴀɴᴅ ᴇɴɪᴏʏ ᴛʜᴇ ᴍᴜsɪᴄ !**</blockquote>"
     )
 
     buttons = [[
