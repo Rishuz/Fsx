@@ -42,10 +42,10 @@ async def start_handler(client: Bot, message: Message | CallbackQuery):
 async def help_handler(client: Bot, message: Message | CallbackQuery):
     text = (
         "<blockquote>⌬ IT'Տ ᐯᗴᖇY ՏIᗰᑭᒪᗴ TO ᑌՏᗴ ᗰᗴ! 😉</blockquote>\n\n"
-        "⌬ sᴛᴀʀᴛ ʙʏ ᴄᴏɴғɪɢᴜʀɪɴɢ ʏᴏᴜʀ ᴘʀᴇғᴇʀᴇɴᴄᴇs ᴜsɪɴɢ ᴛʜᴇ ᴄᴏᴍᴍᴀɴᴅ.` command.\n"
-        "⌬ Send me the name of a song, playlist, album, or artist you want to search for.\n"
-        "⌬ I'll handle the rest and provide you with the results!\n\n"
-        "⌬ Feel free to explore and enjoy the music!⌬"
+        "**⌬ sᴛᴀʀᴛ ʙʏ ᴄᴏɴғɪɢᴜʀɪɴɢ ʏᴏᴜʀ ᴘʀᴇғᴇʀᴇɴᴄᴇs ᴜsɪɴɢ ᴛʜᴇ ᴄᴏᴍᴍᴀɴᴅ. **\n"
+        "**⌬ sᴇɴᴅ ᴍᴇ ᴛʜᴇ ɴᴀᴍᴇ ᴏғ ᴀ sᴏɴɢ, ᴘʟᴀʏʟɪsᴛ, ᴀʟʙᴜᴍ, ᴏʀ ᴀʀᴛɪsᴛ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ sᴇᴀʀᴄʜ .**\n"
+        "**⌬ ɪ'ʟʟ ʜᴀɴᴅʟᴇ ᴛʜᴇ ʀᴇsᴛ ᴀɴᴅ ᴘʀᴏᴠɪᴅᴇ ʏᴏᴜ ᴡɪᴛʜ ᴛʜᴇ ʀᴇsᴜʟᴛs!**\n\n"
+        "<blockquote>⌬ ғᴇᴇʟ ғʀᴇᴇ ᴛᴏ ᴇxᴘʟᴏʀᴇ ᴀɴᴅ ᴇɴɪᴏʏ ᴛʜᴇ ᴍᴜsɪᴄ !</blockquote>"
     )
 
     buttons = [[
