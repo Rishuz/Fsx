@@ -41,11 +41,11 @@ async def start_handler(client: Bot, message: Message | CallbackQuery):
 @Bot.on_message(filters.command('help') & filters.private & filters.incoming)
 async def help_handler(client: Bot, message: Message | CallbackQuery):
     text = (
-        "<blockquote>It's very simple to use me! 😉</blockquote>\n\n"
-        "1. Start by configuring your preferences using the `/settings` command.\n"
-        "2. Send me the name of a song, playlist, album, or artist you want to search for.\n"
-        "3. I'll handle the rest and provide you with the results!\n\n"
-        "Feel free to explore and enjoy the music!"
+        "<blockquote>⌬ IT'Տ ᐯᗴᖇY ՏIᗰᑭᒪᗴ TO ᑌՏᗴ ᗰᗴ! 😉</blockquote>\n\n"
+        "⌬ sᴛᴀʀᴛ ʙʏ ᴄᴏɴғɪɢᴜʀɪɴɢ ʏᴏᴜʀ ᴘʀᴇғᴇʀᴇɴᴄᴇs ᴜsɪɴɢ ᴛʜᴇ ᴄᴏᴍᴍᴀɴᴅ.` command.\n"
+        "⌬ Send me the name of a song, playlist, album, or artist you want to search for.\n"
+        "⌬ I'll handle the rest and provide you with the results!\n\n"
+        "⌬ Feel free to explore and enjoy the music!⌬"
     )
 
     buttons = [[
