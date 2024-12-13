@@ -24,7 +24,7 @@ async def start_handler(client: Bot, message: Message | CallbackQuery):
     )
 
     buttons = [[
-        InlineKeyboardButton('˹ ❍ᴡɴᴇꝛ ˼', url='https://t.me/Rishu1286'),
+        InlineKeyboardButton('˹ ❍ᴡɴᴇꝛ ˼', user_id='5738579437'),
         InlineKeyboardButton('˹ ᴧʙᴏᴜᴛ ˼', callback_data='about')
     ], [
         InlineKeyboardButton('˹ ʜᴇʟᴘ ˼', callback_data='help'),
