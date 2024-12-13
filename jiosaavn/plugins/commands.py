@@ -16,7 +16,7 @@ async def start_handler(client: Bot, message: Message | CallbackQuery):
     text = (
         f"**⛩️ Hello {mention},**\n\n"
         "<blockquote>ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ᴛʜᴇ ʀɪsʜᴜ ᴍᴜsɪᴄ ᴛᴇʟᴇɢʀᴀᴍ ʙᴏᴛ! ᴛʜɪs ᴘᴏᴡᴇʀғᴜʟ ʙᴏᴛ ᴀʟʟᴏᴡs ʏᴏᴜ ᴛᴏ sᴇᴀʀᴄʜ ᴀɴᴅ ᴅᴏᴡɴʟᴏᴀᴅ sᴏɴɢs, ᴘʟᴀʏʟɪsᴛs, ᴀʟʙᴜᴍs, ᴀɴᴅ ᴀʀᴛɪsᴛs ᴅɪʀᴇᴄᴛʟʏ .</blockquote>\n\n"
-        "**❍ ━━━━━━━⸙ Feature ⸙━━━━━━━ ❍**\n"
+        "**❍ ━━━━━━━⸙ Feature ⸙━━━━━━ ❍**\n"
         "**♡ sᴇᴀʀᴄʜ ғᴏʀ sᴏɴɢs, ᴀʟʙᴜᴍs, ᴘʟᴀʏʟɪsᴛs**\n"
         "**♡ ᴅᴏᴡɴʟᴏᴀᴅ ʏᴏᴜʀ ғᴀᴠᴏʀɪᴛᴇ ᴛʀᴀᴄᴋs ᴅɪʀᴇᴄᴛʟʏ ᴛᴏ ᴛᴇʟᴇɢʀᴀᴍ**\n"
         "**♡ ᴇɴʜᴀɴᴄᴇ ʏᴏᴜʀ ᴍᴜsɪᴄ ᴇxᴘᴇʀɪᴇɴᴄᴇ**\n**❍ ━━━━━━━━⸙ ♡ ⸙━━━━━━━━ ❍**\n\n"
@@ -41,7 +41,7 @@ async def start_handler(client: Bot, message: Message | CallbackQuery):
 @Bot.on_message(filters.command('help') & filters.private & filters.incoming)
 async def help_handler(client: Bot, message: Message | CallbackQuery):
     text = (
-        "**It's very simple to use me! 😉**\n\n"
+        "<blockquote>It's very simple to use me! 😉</blockquote>\n\n"
         "1. Start by configuring your preferences using the `/settings` command.\n"
         "2. Send me the name of a song, playlist, album, or artist you want to search for.\n"
         "3. I'll handle the rest and provide you with the results!\n\n"
