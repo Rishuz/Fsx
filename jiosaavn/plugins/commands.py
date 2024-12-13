@@ -15,7 +15,7 @@ async def start_handler(client: Bot, message: Message | CallbackQuery):
     mention = f"[{message.from_user.first_name}{last_name}](tg://user?id={message.from_user.id})"
     text = (
         f"**⛩️ Hello {mention},**\n\n"
-        "<blockquote>ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ᴛʜᴇ ʀɪsʜᴜ ᴍᴜsɪᴄ ᴛᴇʟᴇɢʀᴀᴍ ʙᴏᴛ! ᴛʜɪs ᴘᴏᴡᴇʀғᴜʟ ʙᴏᴛ ᴀʟʟᴏᴡs ʏᴏᴜ ᴛᴏ sᴇᴀʀᴄʜ ᴀɴᴅ ᴅᴏᴡɴʟᴏᴀᴅ sᴏɴɢs, ᴘʟᴀʏʟɪsᴛs, ᴀʟʙᴜᴍs, ᴀɴᴅ ᴀʀᴛɪsᴛs ᴅɪʀᴇᴄᴛʟʏ .</blockquote>\n\n"
+        "<blockquote>**ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ᴛʜᴇ ʀɪsʜᴜ ᴍᴜsɪᴄ ᴛᴇʟᴇɢʀᴀᴍ ʙᴏᴛ! ᴛʜɪs ᴘᴏᴡᴇʀғᴜʟ ʙᴏᴛ ᴀʟʟᴏᴡs ʏᴏᴜ ᴛᴏ sᴇᴀʀᴄʜ ᴀɴᴅ ᴅᴏᴡɴʟᴏᴀᴅ sᴏɴɢs, ᴘʟᴀʏʟɪsᴛs, ᴀʟʙᴜᴍs, ᴀɴᴅ ᴀʀᴛɪsᴛs ᴅɪʀᴇᴄᴛʟʏ **.</blockquote>\n\n"
         "**❍ ━━━━━━⸙ Feature ⸙━━━━━━ ❍**\n"
         "**┣⪼𖨠 sᴇᴀʀᴄʜ ғᴏʀ sᴏɴɢs, ᴀʟʙᴜᴍs, \n┃ ᴘʟᴀʏʟɪsᴛs**\n"
         "**┣⪼𖨠 ᴅᴏᴡɴʟᴏᴀᴅ ʏᴏᴜʀ ғᴀᴠᴏʀɪᴛᴇ \n┃ ᴛʀᴀᴄᴋs ᴅɪʀᴇᴄᴛʟʏ ᴛᴏ ᴛᴇʟᴇɢʀᴀᴍ**\n"
