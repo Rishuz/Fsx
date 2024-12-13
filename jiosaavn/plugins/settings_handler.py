@@ -50,7 +50,9 @@ async def settings(client: Bot, message: Message|CallbackQuery):
         [
             InlineKeyboardButton(quality_320, callback_data='settings#quality#320kbps'),
             InlineKeyboardButton(quality_160, callback_data='settings#quality#160kbps')
-        ]
+        ],
+        [       
+InlineKeyboardButton('˹ ʜᴏᴍᴇ ˼ ', callback_data='home')],
     ]
 
     text = '**Select the search result type and music quality 🧏‍♂️**'
