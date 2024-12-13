@@ -42,8 +42,8 @@ async def start_handler(client: Bot, message: Message | CallbackQuery):
 async def help_handler(client: Bot, message: Message | CallbackQuery):
     text = (
         "<blockquote>**⌬ IT'Տ ᐯᗴᖇY ՏIᗰᑭᒪᗴ TO ᑌՏᗴ ᗰᗴ!** 😉</blockquote>\n\n"
-        "**⌬ sᴛᴀʀᴛ ʙʏ ᴄᴏɴғɪɢᴜʀɪɴɢ ʏᴏᴜʀ ᴘʀᴇғᴇʀᴇɴᴄᴇs ᴜsɪɴɢ ᴛʜᴇ ᴄᴏᴍᴍᴀɴᴅ. **\n"
-        "**⌬ sᴇɴᴅ ᴍᴇ ᴛʜᴇ ɴᴀᴍᴇ ᴏғ ᴀ sᴏɴɢ, ᴘʟᴀʏʟɪsᴛ, ᴀʟʙᴜᴍ, ᴏʀ ᴀʀᴛɪsᴛ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ sᴇᴀʀᴄʜ .**\n"
+        "**⌬ sᴛᴀʀᴛ ʙʏ ᴄᴏɴғɪɢᴜʀɪɴɢ ʏᴏᴜʀ ᴘʀᴇғᴇʀᴇɴᴄᴇs ᴜsɪɴɢ ᴛʜᴇ ᴄᴏᴍᴍᴀɴᴅ. **\n\n"
+        "**⌬ sᴇɴᴅ ᴍᴇ ᴛʜᴇ ɴᴀᴍᴇ ᴏғ ᴀ sᴏɴɢ, ᴘʟᴀʏʟɪsᴛ, ᴀʟʙᴜᴍ, ᴏʀ ᴀʀᴛɪsᴛ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ sᴇᴀʀᴄʜ .**\n\n"
         "**⌬ ɪ'ʟʟ ʜᴀɴᴅʟᴇ ᴛʜᴇ ʀᴇsᴛ ᴀɴᴅ ᴘʀᴏᴠɪᴅᴇ ʏᴏᴜ ᴡɪᴛʜ ᴛʜᴇ ʀᴇsᴜʟᴛs!**\n\n"
         "<blockquote>**⌬ ғᴇᴇʟ ғʀᴇᴇ ᴛᴏ ᴇxᴘʟᴏʀᴇ ᴀɴᴅ ᴇɴɪᴏʏ ᴛʜᴇ ᴍᴜsɪᴄ !**</blockquote>"
     )
@@ -64,7 +64,7 @@ async def about(client: Bot, message: Message|CallbackQuery):
     me = await client.get_me()
 
     text = (
-        f"**🤖 Bot Name:** {me.mention()}\n\n"
+        f"╔════❰ ᴧʙᴏᴜᴛ sᴛᴀᴛᴜs  ❱═❍⊱❁۪۪\n║╭━━━━━━━━━━━━━━━➣\n║┃\n║┣⪼𖨠**🤖 Bot Name:** {me.mention()}\n\n"
         "**📝 Language:** [Python 3](https://www.python.org/)\n\n"
         "**🧰 Framework:** [Pyrogram](https://github.com/pyrogram/pyrogram)\n\n"
         "**👨‍💻 Developer:** [Rishu](https://t.me/rishu1286)\n\n"
