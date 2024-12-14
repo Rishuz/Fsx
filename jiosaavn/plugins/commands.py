@@ -64,11 +64,7 @@ async def about(client: Bot, message: Message|CallbackQuery):
     me = await client.get_me()
 
     text = (
-        f"╔════❰ ᴧʙᴏᴜᴛ sᴛᴀᴛᴜs  ❱═❍⊱❁۪۪\n║╭━━━━━━━━━━━━━━━➣\n║┃\n║┣⪼𖨠**🤖 Bot Name:** {me.mention()}\n\n"
-        "**📝 Language:** [Python 3](https://www.python.org/)\n\n"
-        "**🧰 Framework:** [Pyrogram](https://github.com/pyrogram/pyrogram)\n\n"
-        "**👨‍💻 Developer:** [Rishu](https://t.me/rishu1286)\n\n"
-        "**📢 Updates Channel:** [Rishu bots ](https://t.me/ur_rishu_143)\n\n"
+        f"╔════❰ ᴧʙᴏᴜᴛ sᴛᴀᴛᴜs  ❱═❍⊱❁۪۪\n║╭━━━━━━━━━━━━━━━➣\n║┃\n║┣⪼𖨠**🤖 Bot Name:** {me.mention()}\n║┃\n║┣⪼𖨠**📝 Language:** [Python 3](https://www.python.org/)\n║┃\n║┣⪼𖨠**🧰 Framework:**[Pyrogram](https://github.com/pyrogram/pyrogram)\n║┃\n║┣⪼𖨠**👨‍💻 Developer:** [Rishu](https://t.me/rishu1286)\n║┃\n║┣⪼𖨠**📢 Updates Channel:** [Rishu bots ](https://t.me/ur_rishu_143)\n║┃\n║╰━━━━━━━━━━━━━━━➣ \n╚════❰ ᴘʀᴏɢʀᴇssɪɴɢ ❱══❍⊱❁۪۪"
         
     )
 
