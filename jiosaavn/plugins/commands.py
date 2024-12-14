@@ -64,7 +64,7 @@ async def about(client: Bot, message: Message|CallbackQuery):
     me = await client.get_me()
 
     text = (
-        f"**╔════❰ ᴧʙᴏᴜᴛ sᴛᴀᴛᴜs  ❱═❍⊱❁۪۪**\n**║╭━━━━━━━━━━━━━━━➣**\n**║┃**\n**║┣⪼𖨠 🤖 Bot Name:** {me.mention()}\n**║┃**\n**║┣⪼𖨠 📝 Language:** [Python](https://www.python.org/)\n**║┃**\n**║┣⪼𖨠 🧰 Framework:**[Pyrogram](https://github.com/pyrogram/pyrogram)\n**║┃**\n**║┣⪼𖨠 👨‍💻 Developer:** [Rishu](https://t.me/rishu1286)\n**║┃**\n**║┣⪼𖨠 📢 Updates :** [Rishu bots ](https://t.me/ur_rishu_143)\n**║┃**\n**║╰━━━━━━━━━━━━━━━➣ \n**╚════❰ ᴧʙᴏᴜᴛ sᴛᴀᴛᴜs ❱══❍⊱❁۪۪**"
+        f"**╔════❰ ᴧʙᴏᴜᴛ sᴛᴀᴛᴜs  ❱═❍⊱❁۪۪**\n**║╭━━━━━━━━━━━━━━━➣**\n**║┃**\n**║┣⪼𖨠 🤖 Bot Name:** {me.mention()}\n**║┃**\n**║┣⪼𖨠 📝 Language:** [Python](https://www.python.org/)\n**║┃**\n**║┣⪼𖨠 🧰 Framework:**[Pyrogram](https://github.com/pyrogram/pyrogram)\n**║┃**\n**║┣⪼𖨠 👨‍💻 Developer:** [Rishu](https://t.me/rishu1286)\n**║┃**\n**║┣⪼𖨠 📢 Updates :** [Rishu bots ](https://t.me/ur_rishu_143)\n**║┃**\n**║╰━━━━━━━━━━━━━━━➣\n**╚════❰ ᴧʙᴏᴜᴛ sᴛᴀᴛᴜs ❱══❍⊱❁۪۪**"
         
     )
 
